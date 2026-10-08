@@ -8,6 +8,8 @@ $config = require __DIR__ . '/config.php';
 </head>
 <body>
 <h1><?= htmlspecialchars($config['board_name']) ?></h1> <!-- Change this to the name of your textboard -->
+<h2><?= htmlspecialchars($config['board_news']) ?></h2>
+<p><?= htmlspecialchars($config['board_text']) ?></p>
 <!-- Optional! <img src="logo.png" /> add your logo here -->
 <?php
 # Finish this later
