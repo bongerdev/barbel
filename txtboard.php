@@ -14,6 +14,7 @@ $config = require __DIR__ . '/config.php';
 <?php
 # Finish this later
 # Optionally, you can add a logo to be displayed under the board text if you wish, I might add that later in the config.php file.
+# So far all of the site rendering works
 ?>
 </body>
 </html>
