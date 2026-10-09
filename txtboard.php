@@ -1,5 +1,12 @@
 <?php
 $config = require __DIR__ . '/config.php';
+# Honestly these are just example threads because I'm too lazy to put actual thread writing logic, plus this is a good test to see if thread rendering works.
+# Had to rewrite the PHP into a foreach but I don't really mind, I can just stick comments up here to explain what I'm doing.
+$threads = [
+  1 => ['subject' => 'Barbel', 'replies' => 0],
+  2 => ['subject' => 'Bonger', 'replies' => 0],
+  3 => ['subject' => 'Test', 'replies' => 0],
+];
 ?>
 <!DOCTYPE html>
 <html>
@@ -11,10 +18,7 @@ $config = require __DIR__ . '/config.php';
 <h2><?= htmlspecialchars($config['board_news']) ?></h2>
 <p><?= htmlspecialchars($config['board_text']) ?></p>
 <hr>
-<?php
-# Finish this later
-# Optionally, you can add a logo to be displayed under the board text if you wish, I might add that later in the config.php file.
-# So far all of the site rendering works
-?>
+<?php foreach ($threads as $id => $thread): ?>
+<p><?= $id ?>: <a href="thread.php?id=<?= $id ?>"<?= htmlspecialchars($thread['subject']) ?></a> (<?= $thread['replies'] ?>)</p>
 </body>
 </html>
