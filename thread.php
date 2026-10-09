@@ -11,7 +11,7 @@ $threads = [
 
 $id = (int) ($_GET['id'] ?? 0);
 # Check if the thread exists.
-if(!isset($thread[$id])) {
+if(!isset($threads[$id])) {
   echo "No such thread exists.";
   exit;
 }
@@ -26,7 +26,7 @@ $thread = $threads[$id];
 <body> <!-- I fucking hate how the github editor autoassumes you're closing an already closed element. -->
 <h1>Threads:</h1>
 <div></div>
-<h1><?= htmlspecialchars($thread['name']) ?></h1>
+<h1><?= htmlspecialchars($thread['subject']) ?></h1>
 <p><?= $thread['replies'] ?></p>
 <a href="txtboard.php">Back to main page</a>
 </body>
