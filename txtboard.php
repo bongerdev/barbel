@@ -20,5 +20,6 @@ $threads = [
 <hr>
 <?php foreach ($threads as $id => $thread): ?>
 <p><?= $id ?>: <a href="thread.php?id=<?= $id ?>"><?= htmlspecialchars($thread['subject']) ?></a> (<?= $thread['replies'] ?>)</p>
+<?php endforeach; ?>
 </body>
 </html>
