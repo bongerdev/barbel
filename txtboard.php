@@ -19,6 +19,6 @@ $threads = [
 <p><?= htmlspecialchars($config['board_text']) ?></p>
 <hr>
 <?php foreach ($threads as $id => $thread): ?>
-<p><?= $id ?>: <a href="thread.php?id=<?= $id ?>"<?= htmlspecialchars($thread['subject']) ?></a> (<?= $thread['replies'] ?>)</p>
+<p><?= $id ?>: <a href="thread.php?id=<?= $id ?>"><?= htmlspecialchars($thread['subject']) ?></a> (<?= $thread['replies'] ?>)</p>
 </body>
 </html>
