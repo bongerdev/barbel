@@ -1,4 +1,5 @@
 <?php
+# I like bumblebees yaaaaaaaaaay
 # Import the config for title and nothing else really.
 $config = require __DIR__ . '/config.php';
 # Defining threads again, checking if they exist, obviously they're examples still.
