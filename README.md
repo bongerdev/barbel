@@ -11,7 +11,7 @@ Barbel is a textboard engine, which means people can download it and run their o
 
 ## What does Barbel run?
 
-Barbel will use PHP and MySQL (and in the future POSTGRES) as its stack.
+Barbel will use PHP and Postgres (formerly MySQL) as its stack.
 
 ------------------------------------
 WARNING: BARBEL IS NOT FINISHED AND IS STILL IN ALPHA. INSTALL AT YOUR OWN RISK.
