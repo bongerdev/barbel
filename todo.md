@@ -10,4 +10,5 @@
 - [ ] Clean up thread.php
 - [ ] Set up Postgres for threads and posts
 - [ ] Thread creation form
-- [ ] Form for reppies and showing reppies in the thread viewer
+- [ ] Form for replies and showing replies in the thread viewer
+- [X] Edit the readme to change MySQL to Postgres in accordance with upgraded stack.
