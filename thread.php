@@ -23,7 +23,7 @@ $thread = $threads[$id];
 <head>
 <title><?= htmlspecialchars($config['board_name']) ?></title>
 </head>
-<body> <!-- I fucking hate how the github editor autoassumes you're closing an already closed element. -->
+<body> 
 <h1>Threads:</h1>
 <div></div>
 <h1><?= htmlspecialchars($thread['subject']) ?></h1>
