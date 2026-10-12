@@ -12,6 +12,6 @@ http_response_code(404);
 </head>
 <body>
 <h1>Page not found, sorry.</h1>
-<p>Are you sure you typed the correct URI?</p>
+<p>This thread (or page) doesn't exist. It might have been pruned, deleted or never existed at all.</p>
 </body>
 </html>
