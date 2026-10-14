@@ -6,7 +6,8 @@
 
 ## Alpha 0.2
 - [ ] Move the example threads into one php file
-- [ ] Create a real 404 page
+- [X] Create a real 404 page
+- [ ] Wire the 404 page into txtboard.php
 - [ ] Clean up thread.php
 - [ ] Set up Postgres for threads and posts
 - [ ] Thread creation form
