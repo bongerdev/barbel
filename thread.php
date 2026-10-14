@@ -25,7 +25,7 @@ $thread = $threads[$id];
 </head>
 <body>
 <h1>Threads:</h1>
-<div></div>
+<br />
 <h1><?= htmlspecialchars($thread['subject']) ?></h1>
 <p><?= $thread['replies'] ?></p>
 <a href="txtboard.php">Back to main page</a>
